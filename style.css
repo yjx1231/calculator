@@ -8,7 +8,7 @@ html{
 }
 body{
 	height: 100%;
-	background: linear-gradient(to bottom,#9349D4 10%,#354A77 70%);
+	background: linear-gradient(to bottom,#e5f7f7 10%,#96f4f6 70%);
 }
 p{
 	background: rgba(0,0,0,.55);
@@ -18,7 +18,7 @@ p{
 	padding: 0 20px;
 }
 .calculator{
-	height: 450px;
+	height: 380px;
 	width: 310px;
 	background: rgba(0,0,0,.3);
 	position: absolute;
@@ -68,23 +68,14 @@ li:hover::before{
 	color: #fff;
 }
 .num{
+	/* 62px一格 */
 	float: left;
-	width: 186px;
+	width: 248px;
 }
 .control{
 	float: left;
-	width: 124px;
+	width: 62px;
 }
 .control li{
 	background: linear-gradient(to bottom,#BE5600 50%,#FF8000 100%);
-}
-.pro{
-	width: 100%;
-	overflow: hidden;
-	display: flex;
-	margin-bottom: 10px;
-}
-.pro li{
-	flex: 1 1 auto;
-	background: linear-gradient(20deg , #3D568B 40%,#334774 100%)
 }
